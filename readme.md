@@ -4,3 +4,7 @@ This is a Google Chrome extension that changes those obscure rider references li
 
 - Only affects vitalmx.com forums, nothing else.
 - Might screw something up, who knows.
+
+## Installation
+
+Download the `Vital.crx` file and install it as an extension.
