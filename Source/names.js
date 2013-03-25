@@ -3,7 +3,7 @@ var names = {
 	"BB(4|1)?": "Blake Baggett",
 	"RD(5)?": "Ryan Dungey",
 	"JS(7)?": "James Stewart",
-	"IT(9)?": "Ivan Tedesco",
+	"IT(9)": "Ivan Tedesco", // Number required to avoid conflicts with common words
 	"JB(10)?": "Justin Brayton",
 	"KC(11)?": "Kyle Chisholm",
 	"JW(12)?": "Jake Weimer",
@@ -15,7 +15,7 @@ var names = {
 	"DM(18)?": "Davi Millsaps",
 	"WH(19)?": "Will Haun",
 	"BT(20)?": "Broc Tickle",
-	"CR(22)?": "Chad Reed",
+	"CR(22)": "Chad Reed", // Number required to avoid conflicts with bike name
 	"BM(24)?": "Bret Metcalfe",	
 	"MM(25)?": "Marvin Musquin",
 	"MB(26)?": "Michael Byrne",
@@ -23,7 +23,7 @@ var names = {
 	"TR(28)?": "Tyla Rattray",
 	"AS(29)?": "Andrew Short",
 	"JG(33)?": "Josh Grant",
-	"TC(41)?": "Trey Canard",
+	"TC(41)": "Trey Canard", // Number required to avoid conflicts with bike name
 	"JB(51)?": "Justin Barcia",
 	"JH(75)?": "Josh Hill",
 	"KR(94)?": "Ken Roczen",
