@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "VitalMX.com Rider Name Acronym Expander",
-	"description": "Changes those obscure rider references like RV2 into the riders' proper names.",
+	"name": "VitalMX.com Fixer",
+	"description": "Fixes the things that suck about VitalMX.com",
 	"version": "1.0",
 	"content_scripts": [
 		{
