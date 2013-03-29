@@ -1,10 +1,6 @@
-# VitalMX.com Rider Name Acronym Expander
+# VitalMX.com Fixer
 
-This is a Google Chrome extension that changes those obscure rider references like RV2 into the riders' proper names.
+This is a Google Chrome extension that automatically changes the things that suck about VitalMX.com:
 
-- Only affects vitalmx.com forums, nothing else.
-- Might screw something up, who knows.
-
-## Installation
-
-Download the `Vital.crx` file and install it as an extension.
+- Replaces obscure rider name acronyms like BT101 into the riders’ proper names
+- More to come...
