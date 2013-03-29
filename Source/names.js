@@ -22,7 +22,7 @@ var names = {
 	"NW(27)?": "Nick Wey",
 	"TR(28)?": "Tyla Rattray",
 	"AS(29)?": "Andrew Short",
-	"JG(33)?": "Josh Grant",
+	"JG(33)": "Josh Grant",
 	"TC(41)": "Trey Canard", // Number required to avoid conflicts with bike name
 	"JB(51)?": "Justin Barcia",
 	"JH(75)?": "Josh Hill",
