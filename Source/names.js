@@ -17,7 +17,7 @@ var names = {
 	"BT(20)?": "Broc Tickle",
 	"CR(22)": "Chad Reed", // Number required to avoid conflicts with bike name
 	"BM(24)?": "Bret Metcalfe",	
-	"MM(25)?": "Marvin Musquin",
+	"MM(25)": "Marvin Musquin", // Number required to avoid conflicts with common words
 	"MB(26)?": "Michael Byrne",
 	"NW(27)?": "Nick Wey",
 	"TR(28)?": "Tyla Rattray",
