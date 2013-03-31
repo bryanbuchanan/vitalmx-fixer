@@ -27,7 +27,7 @@ var names = {
 	"JB(51)?": "Justin Barcia",
 	"JH(75)?": "Josh Hill",
 	"KR(94)?": "Ken Roczen",
-	"MA(800)?": "Mike Alessi"
+	"MA(800)": "Mike Alessi" // Number required to avoid conflicts with common words
 };
 
 var content = document.body.innerHTML;
