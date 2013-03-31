@@ -5,7 +5,7 @@
 	"version": "1.0",
 	"content_scripts": [
 		{
-			"matches": ["http://www.vitalmx.com/forums/*"],
+			"matches": ["http://www.vitalmx.com/forums/Moto-Related*"],
 			"js": ["names.js"],
 			"run_at": "document_end"
 		}
