@@ -1,7 +1,7 @@
 var names = {
 	"RV(2|1)?": "Ryan Villopoto",
 	"BB(4|1)?": "Blake Baggett",
-	"RD(5)?": "Ryan Dungey",
+	"RD(5|1)?": "Ryan Dungey",
 	"JS(7)?": "James Stewart",
 	"IT(9)": "Ivan Tedesco", // IT is too common of a word, so number is required
 	"JB(10)?": "Justin Brayton",
@@ -43,14 +43,26 @@ for (var name in names) {
 
 }
 
-// Replace content
-var content = document.body.innerHTML;
-for (var name in names) var content = content.replace(new RegExp(name, 'g'), names[name]);
-document.body.innerHTML = content;
+// Get list of elements
+var elements = new Array();
+elements.push(document.getElementsByTagName('h1'));
+elements.push(document.getElementsByTagName('a'));
+elements.push(document.getElementsByTagName('span'));
+elements.push(document.getElementsByClassName('body'));
 
-/* Target only post content (not done)
-var menus = document.getElementsByClassName('body');
-for (var i = menus.length - 1; i >= 0; i--) {
-  menus[i].className = "style1";
+// Organize list of elements
+for (var i = elements.length - 1; i >= 0; i--) {
+	for (var ii = elements[i].length - 1; ii >= 0; ii--) {
+		elements.push(elements[i][ii]);
+	}
+	elements.splice(i, 1);
 }
-*/
+
+// Replace content
+for (var i = elements.length - 1; i >= 0; i--) {
+	var content = elements[i].innerHTML;
+	for (var name in names) {
+		var content = content.replace(new RegExp(name, 'g'), '<span style="border-radius:3px; background:rgba(255,255,0, .25);">' + names[name] + '</span>');
+	}
+	elements[i].innerHTML = content;
+}
