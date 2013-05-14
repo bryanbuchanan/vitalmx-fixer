@@ -50,7 +50,7 @@ elements.push(document.getElementsByTagName('a'));
 elements.push(document.getElementsByTagName('span'));
 elements.push(document.getElementsByClassName('body'));
 
-// Organize list of elements
+// Remove unnecessary nesting in list
 for (var i = elements.length - 1; i >= 0; i--) {
 	for (var ii = elements[i].length - 1; ii >= 0; ii--) {
 		elements.push(elements[i][ii]);
