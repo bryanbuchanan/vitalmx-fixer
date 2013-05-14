@@ -4,7 +4,7 @@ var names = {
 	"RD(5|1)?": "Ryan Dungey",
 	"JS(7)?": "James Stewart",
 	"IT(9)": "Ivan Tedesco", // IT is too common of a word, so number is required
-	"JB(10)?": "Justin Brayton",
+	"JB(10)": "Justin Brayton", // Number is required to avoid conflicts with Barcia, who is more likely to be referenced
 	"KC(11)?": "Kyle Chisholm",
 	"JW(12)?": "Jake Weimer",
 	"BW(13)?": "Blake Wharton",
@@ -34,8 +34,8 @@ var names = {
 for (var name in names) {
 
 	// Add specifics to patterns
-	var abbr = "(\\W)" + name + "(\\W)";
-	var realName = "$1" + names[name] + "$3";
+	var abbr = "(\\W|^)" + name + "(\\W|$)";
+	var realName = names[name];
 	
 	// Replace old pattern with new pattern
 	names[abbr] = realName;
@@ -62,7 +62,7 @@ for (var i = elements.length - 1; i >= 0; i--) {
 for (var i = elements.length - 1; i >= 0; i--) {
 	var content = elements[i].innerHTML;
 	for (var name in names) {
-		var content = content.replace(new RegExp(name, 'g'), '<span style="border-radius:3px; background:rgba(255,255,0, .25);">' + names[name] + '</span>');
+		var content = content.replace(new RegExp(name, 'g'), '$1<span style="border-radius:3px; background:rgba(255,255,0, .25);">' + names[name] + '</span>$3');
 	}
 	elements[i].innerHTML = content;
 }
