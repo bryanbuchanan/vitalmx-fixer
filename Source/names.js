@@ -28,7 +28,7 @@ var names = {
 	"JH(75)?": "Josh Hill",
 	"KR(94)?": "Ken Roczen",
 	"MA(800)?": "Mike Alessi",
-	"AC(92)?": "Adam Cianciarulo"
+	"AC(92|292)?": "Adam Cianciarulo"
 };
 
 for (var name in names) {
