@@ -6,15 +6,15 @@
    <array>
      <dict>
        <key>CFBundleIdentifier</key>
-       <string>com.yourCompany.safari.yourExtensionName</string>
+       <string>com.resen.vitalmxfixer</string>
        <key>Developer Identifier</key>
-       <string>YourCertificateID</string>
+       <string>68DT8MLUWT</string>
        <key>CFBundleVersion</key>
-       <string>Your current bundle version</string>
+       <string>1</string>
        <key>CFBundleShortVersionString</key>
-       <string>Your current display version</string>
+       <string>1.0</string>
        <key>URL</key>
-       <string>Your-.safariextz-URL</string>
+       <string>https://github.com/bryanbuchanan/vitalmx-fixer/blob/master/dist/VitalMX.com%20Fixer.safariextz</string>
      </dict>
    </array>
 </dict>
