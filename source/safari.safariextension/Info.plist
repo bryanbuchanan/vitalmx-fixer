@@ -44,6 +44,8 @@
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://raw.github.com/bryanbuchanan/vitalmx-fixer/master/dist/update-safari.plist</string>
 	<key>Website</key>
 	<string>http://resen.co</string>
 </dict>
