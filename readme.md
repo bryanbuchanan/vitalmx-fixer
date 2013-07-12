@@ -7,4 +7,4 @@ This is a Google Chrome extension that automatically changes the things that suc
 
 # Installation
 
-Download it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/vitalmxcom-fixer/naoiijfdpkkjdfhgmmibadpcdehbgkgi).
+- **Chrome**: [Download it from the Chrome Web Store](https://chrome.google.com/webstore/detail/vitalmxcom-fixer/naoiijfdpkkjdfhgmmibadpcdehbgkgi).
