@@ -10,9 +10,9 @@
        <key>Developer Identifier</key>
        <string>68DT8MLUWT</string>
        <key>CFBundleVersion</key>
-       <string>2</string>
+       <string>1</string>
        <key>CFBundleShortVersionString</key>
-       <string>2.0</string>
+       <string>1.0</string>
        <key>URL</key>
        <string>https://github.com/bryanbuchanan/vitalmx-fixer/raw/master/dist/vitalmxfixer.safariextz</string>
      </dict>
