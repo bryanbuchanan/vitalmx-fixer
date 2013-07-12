@@ -45,7 +45,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>https://raw.github.com/bryanbuchanan/vitalmx-fixer/master/dist/update-safari.plist</string>
+	<string>https://github.com/bryanbuchanan/vitalmx-fixer/raw/master/dist/update-safari.plist</string>
 	<key>Website</key>
 	<string>http://resen.co</string>
 </dict>

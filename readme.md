@@ -8,4 +8,4 @@ This is a browser extension for Google Chrome and Apple Safari that automaticall
 # Installation
 
 - **Chrome**: [Download it from the Chrome Web Store](https://chrome.google.com/webstore/detail/vitalmxcom-fixer/naoiijfdpkkjdfhgmmibadpcdehbgkgi).
-- **Safari**: [Download here](https://github.com/bryanbuchanan/vitalmx-fixer/blob/master/dist/VitalMX.com%20Fixer.safariextz)
+- **Safari**: [Download here](https://github.com/bryanbuchanan/vitalmx-fixer/raw/master/dist/vitalmxfixer.safariextz)
