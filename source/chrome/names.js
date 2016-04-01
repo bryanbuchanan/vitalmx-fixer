@@ -69,28 +69,17 @@ for (var name in names) {
 
 }
 
-// Get list of elements
-var elements = new Array();
-elements.push(document.getElementsByTagName('h1'));
-elements.push(document.getElementsByTagName('a'));
-elements.push(document.getElementsByTagName('span'));
-elements.push(document.getElementsByClassName('body'));
+$('.forum.category td:first-child a, h1, .body').each(function() {
 
-// Remove unnecessary nesting in list
-for (var i = elements.length - 1; i >= 0; i--) {
-	for (var ii = elements[i].length - 1; ii >= 0; ii--) {
-		elements.push(elements[i][ii]);
-	}
-	elements.splice(i, 1);
-}
-
-// Replace content
-for (var i = elements.length - 1; i >= 0; i--) {
-	var content = elements[i].innerHTML;
+	var $this = $(this);
+	var content = $this.html();
+	
 	for (var name in names) {
 		var content = content.replace(new RegExp(name, 'g'), '$1<span style="border-radius:3px; background:rgba(255,255,0, .25);" title="$2">' + names[name] + '</span>$4');
 	}
-	elements[i].innerHTML = content;
-}
+	
+	$this.html(content);
+	
+});
 
 
