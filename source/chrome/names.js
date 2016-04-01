@@ -60,7 +60,7 @@ var names = {
 for (var name in names) {
 
 	// Add specifics to patterns
-	var abbr = "(\\W|^)" + name + "(\\W|$)";
+	var abbr = "(\\W|^)(" + name + ")(\\W|$)";
 	var realName = names[name];
 	
 	// Replace old pattern with new pattern
@@ -88,7 +88,7 @@ for (var i = elements.length - 1; i >= 0; i--) {
 for (var i = elements.length - 1; i >= 0; i--) {
 	var content = elements[i].innerHTML;
 	for (var name in names) {
-		var content = content.replace(new RegExp(name, 'g'), '$1<span style="border-radius:3px; background:rgba(255,255,0, .25);">' + names[name] + '</span>$3');
+		var content = content.replace(new RegExp(name, 'g'), '$1<span style="border-radius:3px; background:rgba(255,255,0, .25);" title="$2">' + names[name] + '</span>$4');
 	}
 	elements[i].innerHTML = content;
 }

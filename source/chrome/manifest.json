@@ -2,9 +2,9 @@
 "update_url": "https://clients2.google.com/service/update2/crx",
 
 	"manifest_version": 2,
-	"name": "VitalMX.com Fixer",
+	"name": "Vitard Fixer",
 	"description": "Fixes the things that suck about VitalMX.com",
-	"version": "2.1",
+	"version": "2.1.1",
 	"content_scripts": [
 		{
 			"matches": ["http://www.vitalmx.com/forums/*"],
