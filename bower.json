@@ -1,0 +1,8 @@
+{
+	"name": "vitard fixer",
+	"version": "2.1.2",
+	"dependencies": {
+		"jquery": "2.2.*"
+	},
+	"private": true
+}

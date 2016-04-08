@@ -4,11 +4,11 @@
 	"manifest_version": 2,
 	"name": "Vitard Fixer",
 	"description": "Fixes the things that suck about VitalMX.com",
-	"version": "2.1.1",
+	"version": "2.1.2",
 	"content_scripts": [
 		{
 			"matches": ["http://www.vitalmx.com/forums/*"],
-			"js": ["jquery.js", "names.js"],
+			"js": ["components/jquery/dist/jquery.js", "names.js"],
 			"run_at": "document_end"
 		}
 	],
